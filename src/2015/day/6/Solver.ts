@@ -1,6 +1,5 @@
 import { join } from "path";
 import { readFileSync } from "fs";
-import { Instruction } from "./instructions/Instruction";
 import { parseInstruction } from "./InstructionParser";
 import { LightDisplay } from "./LightDisplay";
 import { OriginalInstructionFactoryImpl } from "./instructionfactory/OriginalInstructionFactoryImpl";
